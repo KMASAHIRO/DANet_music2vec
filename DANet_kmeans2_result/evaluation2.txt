@@ -1,0 +1,2 @@
+GNSDR:0.76 GSAR:9.4  GSIR:5.2 
+same:1292 reverse:558
