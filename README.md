@@ -29,7 +29,7 @@ DANet_kmeans_module.pyはそれらの実行時に利用した関数やモデル�
 
 ## 結果と評価
 50個の音楽テストデータと100個の環境音テストデータを用いて(1個の音楽データは30秒、1個の環境音データは5秒)DANetに音楽と環境音の分離をさせた後、音楽ジャンルを分類させて混同行列を作成し、Accuracy・Precision・Recall・F1を求めた。  
-比較として、DANetの出力をmusic2vecに入力する場合以外にも、元の音楽データをmusic2vecに入力する場合、DANetに入力される環境音と音楽との混合音声をmusic2vecに入力した場合にも同様のことを行って評価した。  
+比較として、DANetの出力をmusic2vecに入力する場合以外にも、元の音楽データをmusic2vecに入力する場合、DANetに入力される環境音と音楽との混合音声をmusic2vecに入力する場合にも同様の評価を行った。  
 環境音を1つ混ぜた場合と2つ混ぜた場合それぞれについて下に示す。  
 
 <img width="1000" alt="confusion_matrix1" src="https://user-images.githubusercontent.com/74399610/115970068-16fa6080-a57b-11eb-8ee6-83f695e98638.png">
